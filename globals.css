@@ -1,0 +1,58 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700,300,500,600,400italic,800");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/635d63425d5ab3de06a94bf3.635d6343fa28a37fe186ad9a.pnFjagZ.hcp.png");
+
+@font-face {
+  font-family: "BrandonGrotesque-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/.10294.otf") format("opentype");
+}
+@font-face {
+  font-family: "BrandonGrotesque-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/.10300.otf") format("opentype");
+}
+@font-face {
+  font-family: "BrandonGrotesque-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/.10296.otf") format("opentype");
+}
+@font-face {
+  font-family: "BrandonGrotesque-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/HVD Fonts - BrandonGrotesque-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "SegoeUI-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Segoe UI.ttf") format("truetype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
